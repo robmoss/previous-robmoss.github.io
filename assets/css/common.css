@@ -1,0 +1,226 @@
+/*
+ * Stylesheet with rules that apply to both large and small screens.
+ *
+ * Relative font-sizes defined as per "iteration 5" of:
+ *   http://alistapart.com/article/howtosizetextincss
+ *
+ */
+
+/* Text dimensions and font families. */
+body {
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 100%;
+    font-family: "Droid Sans", "DejaVu Sans", "Calibri", "Verdana", sans-serif;
+}
+h1, h2, h3 { display: block; text-align: center; font-family: "Raleway",
+  "Droid Sans", "DejaVu Sans", "Calibri", "Verdana", sans-serif; }
+h1 { font-size: 1.4em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1.1em; }
+span.chart svg, div.tooltip { font-size: 0.875em; }
+.footer { font-size: 0.625em; }
+.colitem a { font-size: 0.75em; }
+.colname, .colitem { font-family: "Raleway", "Droid Sans",
+  "DejaVu Sans", "Calibri", "Verdana", sans-serif; }
+.colitem a { font-weight: bold; }
+ul li, div.tooltip { line-height: 1.25em; }
+ul.navbar li { line-height: inherit; }
+emph { font-style: italic; }
+span.frdel { text-decoration: line-through; }
+
+/* Page layout. */
+html, body, div, .colname, .colitem { margin: 0; padding: 0; }
+#content { margin: 0 auto; }
+h2 { padding-top: 1em; }
+/* Display content blocks -- headings, text, lists -- centred horizontally. */
+h1, h2, h3, div, p, ul, ol, blockquote, div.MathJax_Display {
+    margin-left: auto; margin-right: auto;
+}
+p.img { max-width: 32em; margin: 2em auto; }
+p.img img { max-width: inherit; }
+.colitem { overflow: hidden; line-height: 1.0em; }
+.footer { text-align: center; margin-top: 5em; }
+span.abstract { display: none; }
+img { clear: none; float: right; margin: 0 0 0.5em 0.5em; }
+div.lcol img, div.rcol img {
+    height: 1.2em;
+    clear: none;
+    float: none;
+    margin: 0 0 -0.1em 0;
+    padding-right: 0.25em;
+}
+/* Centre the `pre` block, but shrink its width to that of its content. */
+div.code { text-align: center; }
+div.code pre {
+    display: inline-block;
+    text-align: left;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+/* Display blurbs at the top of the page, on a highlighted background. */
+div.heading { margin-bottom: 2.5em; }
+div.heading > *:first-child { padding-top: 0.5em; }
+div.heading > *:last-child { padding-bottom: 0.5em; }
+
+/* Round corners on the page blurb and the navigation bar. */
+div.heading { border-radius: 1em; }
+ul.navbar { border-radius: 0 0 1em 1em; }
+
+/* Ordered lists. */
+ol {
+    list-style-position: outside;
+    padding-left: 1.5em;
+}
+ol li {
+    margin: 0;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 1em;
+}
+
+/* Unordered lists. */
+ul {
+    list-style-type: none;
+    padding-left: 0em;
+}
+ul.navbar {
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    text-align: center;
+}
+ul.navbar li {
+    background: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+ul.navbar li a {
+    text-decoration: none;
+}
+ul li {
+    background-image: url("../images/influenza.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 1.2em 1.2em;
+    margin: 0;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+}
+ul.pubs li.epi {
+    background-image: url("../images/influenza.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: auto;
+    margin-left: -48px;
+    padding-left: 48px;
+    padding-right: 0px;
+}
+ul.pubs li.renal {
+    background-image: url("../images/kidney_trans.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: auto;
+    margin-left: -48px;
+    padding-left: 48px;
+    padding-right: 0px;
+}
+
+span.chart, span.chart svg { display: block; margin: 0 auto; }
+span.chart { margin-top: 2em; }
+p.caption { text-align: center; }
+.showjs {
+    display: none;
+}
+
+/*
+ * Lines and paths
+ */
+
+line.grid {
+    stroke-width: 0.1;
+}
+
+.axis {
+    stroke-width: 0.8;
+}
+.xTicks, .yTicks {
+    stroke-width: 0.6;
+}
+
+path {
+    stroke: #268bd2;
+    stroke-width: 2;
+    fill: none;
+}
+
+path.model {
+    stroke: #859900;
+    stroke-width: 3;
+    fill: none;
+}
+
+path.hull {
+    stroke: none;
+    fill: #268bd2;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+rect.model { fill: #859900; }
+rect.exp { fill: #268bd2; }
+
+#highlight {
+    stroke: #dc322f;
+    stroke-width: 5;
+}
+
+/*
+ * Tooltips
+ */
+
+div.tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 0.5em;
+  border: 0px;
+  border-radius: 0.75em;
+}
+
+/*
+ * Tables
+ */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+table caption {
+    margin-bottom: 1em;
+}
+
+th, td {
+    padding: 0.1em 0.25em;
+    padding-right: 1em;
+}
+
+th, td.toggle { text-align: center; }
+td { text-align: left; }
+td:first-child, td:last-child { white-space: nowrap; }
+
+div#table {
+    position: fixed;
+    top: 4em;
+    left: 0em;
+    width: auto;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+}

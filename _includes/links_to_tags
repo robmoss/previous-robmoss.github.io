@@ -1,0 +1,17 @@
+{% if include.tags and include.tags.size > 0 %}
+{% capture tags %}
+  {% for tag in include.tags %}
+    {{ tag | replace: ' ', '&#32;' }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+<p class="colitem">
+{% for tag in sortedtags %}
+  {% assign tagname = tag | upcase %}
+  {% unless tag == tagname %}
+    {% assign tagname = tag | capitalize %}
+  {% endunless %}
+  <a href="{{ site.baseurl }}/{{ include.category }}/tag/#{{ tag }}">{{ tagname }}</a><br/>
+{% endfor %}
+</p>
+{% endif %}

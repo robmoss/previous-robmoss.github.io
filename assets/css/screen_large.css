@@ -1,0 +1,14 @@
+/* Stylesheet for presenting material on larger screens. */
+#content { width: 60em; }
+div, p, ul, div.MathJax_Display { width: 40em; }
+ol { width: 38.5em; }
+blockquote { width: 35em; }
+h1 { width: 28.57em; }
+h2 { width: 33.33em; }
+h3 { width: 36.36em; }
+div.heading > * { width: 38.5em; }
+.lcol { float: left; clear: left; text-align: right; }
+.rcol { float: right; clear: right; text-align: left; }
+.lcol, .rcol { margin-bottom: 1.5em; }
+.lcol, .lcol > *, .rcol, .rcol > * { width: 8em; }
+div.col { float: right; text-align: right; width: auto; }

@@ -1,0 +1,66 @@
+# The site title, used for any page that does not define a title.
+title: "Site Title"
+
+# Don't publish the README or LICENSE.
+exclude: ['README.md', 'LICENSE']
+
+# Support relative links for project pages on github and when serving the
+# site locally, as per https://github.com/mojombo/jekyll/issues/332.
+# For example, set to "/project-name" (without a trailing slash).
+baseurl: ""
+
+# The default colour theme for every page and post.
+theme: "solarized-light"
+
+# The URLs for site-wide files such as stylesheets.
+url_css: "/assets/css"
+url_img: "/assets/images"
+url_js: "/assets/js"
+
+# The URL for each blog post, as per http://jekyllrb.com/docs/permalinks/.
+permalink: /:categories/:year/:month/:day/:title
+
+# Links that appear in the navigation bar.
+navlinks:
+  - Home: "/"
+
+# The number of posts to show when using the `posts_by_category` layout.
+max_posts: 3
+# The number of posts to include in the RSS feed.
+feed_posts: 10
+# Whether to display posts with dates in the future.
+future: false
+
+# The local server port to use when serving the site locally.
+port: 4000
+# Disable custom plugins.
+safe: true
+
+# Replace normal quotes with smart quotes, using `rdiscount`.
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+
+# The default license under which a post is published.
+default_license: CC BY-SA
+
+# The list of licenses under which a post can be published.
+licenses:
+  - name: CC BY
+    url: http://creativecommons.org/licenses/by/4.0/
+    img: http://i.creativecommons.org/l/by/4.0/80x15.png
+  - name: CC BY-SA
+    url: http://creativecommons.org/licenses/by-sa/4.0/
+    img: http://i.creativecommons.org/l/by-sa/4.0/80x15.png
+  - name: CC BY-NC
+    url: http://creativecommons.org/licenses/by-nc/4.0/
+    img: http://i.creativecommons.org/l/by-nc/4.0/80x15.png
+  - name: CC BY-NC-ND
+    url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+    img: http://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png
+  - name: CC BY-NC-SA
+    url: http://creativecommons.org/licenses/by-nc-sa/4.0/
+    img: http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png
+  - name: CC BY-ND
+    url: http://creativecommons.org/licenses/by-nd/4.0/
+    img: http://i.creativecommons.org/l/by-nd/4.0/80x15.png

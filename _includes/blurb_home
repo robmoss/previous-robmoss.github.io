@@ -1,0 +1,15 @@
+<div class="rcol">
+<p class="colname">
+  Column
+</p>
+<p class="colitem">
+  <a href="http://www.example.com/">Link #1</a><br/>
+  <a href="http://www.example.com/">Link #2</a>
+</p>
+</div>
+<div class="heading">
+<p>
+This is the default blurb for the main page
+(<emph>_includes/blurb_home</emph>).
+</p>
+</div>
