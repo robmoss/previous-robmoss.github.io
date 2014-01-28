@@ -1,5 +1,9 @@
-# The site title, used for any page that does not define a title.
+# The site title, used for pages with a title and in RSS feeds.
 title: "Site Title"
+# The (absolute) URL at which the site can be found (e.g., used in RSS feeds).
+url: ""
+# A brief description of the site (e.g., used in RSS feeds).
+description: ""
 
 # Don't publish the README or LICENSE.
 exclude: ['README.md', 'LICENSE']
