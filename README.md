@@ -72,9 +72,8 @@ The behaviour of this layout depends on the following variables:
   **all** categories are listed; if defined, the most recent posts from that
   specific category are listed.
 - `site.max_posts`: the number of posts to display.
-- `page.hidecats`: if `page.category` is undefined, a link to each post's
-  category is added under the post date **unless** this boolean option is set
-  (defaults to "false").
+- `site.listed_by_cat`: if true **and** `page.category` is undefined, links to
+  per-category post listings are added under post dates (defaults to "false").
 
 ## Posts by date
 

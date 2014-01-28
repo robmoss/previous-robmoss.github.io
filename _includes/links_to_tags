@@ -11,7 +11,11 @@
   {% unless tag == tagname %}
     {% assign tagname = tag | capitalize %}
   {% endunless %}
-  <a href="{{ site.baseurl }}/{{ include.category }}/tag/#{{ tag }}">{{ tagname }}</a><br/>
+  {% if site.listed_by_cat %}
+  <a href="{{ site.baseurl }}{{ site.url_blog }}/{{ include.category }}/tag/#{{ tag }}">{{ tagname }}</a><br/>
+  {% else %}
+  <a href="{{ site.baseurl }}{{ site.url_blog }}/tag/#{{ tag }}">{{ tagname }}</a><br/>
+  {% endif %}
 {% endfor %}
 </p>
 {% endif %}

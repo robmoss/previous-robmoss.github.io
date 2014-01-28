@@ -17,6 +17,12 @@ url_css: "/assets/css"
 url_img: "/assets/images"
 url_js: "/assets/js"
 
+# Set to "/some/path" if the blog is hosted in a sub-directory of this site.
+url_blog: ""
+# Set to true if blog posts are listed (i.e., recent posts, posts by date,
+# and posts by tag) on a per-category basis.
+listed_by_cat: false
+
 # The URL for each blog post, as per http://jekyllrb.com/docs/permalinks/.
 permalink: /:categories/:year/:month/:day/:title
 

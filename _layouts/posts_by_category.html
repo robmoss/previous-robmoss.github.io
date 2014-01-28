@@ -16,13 +16,13 @@ layout: site
 <h2>{{ post.title }}</h2>
 <div class="lcol">
   <p class="colname">{{ post.date | date: "%b %-d, %Y" }}</p>
-  {% if page.category == nil and post.categories %}
-  {% unless page.hidecats %}
+  {% if page.category == nil and post.categories.size > 0 %}
+  {% if site.listed_by_cat %}
   <p class="colitem">
-    <a href="{{ site.baseurl }}/{{ post.categories[0] }}">{{ post.categories[0] | capitalize }}</a>
+    <a href="{{ site.baseurl }}{{ site.url_blog }}/{{ post.categories[0] }}">{{ post.categories[0] | capitalize }}</a>
   </p>
-  {% endunless %}
-  {% elsif page.category != nil %}
+  {% endif %}
+  {% else %}
   {% include links_to_tags tags=post.tags category=page.category %}
   {% endif %}
 </div>
