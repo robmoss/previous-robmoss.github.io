@@ -1,15 +1,12 @@
-<div class="rcol">
-<p class="colname">
-  Column
-</p>
-<p class="colitem">
-  <a href="http://www.example.com/">Link #1</a><br/>
-  <a href="http://www.example.com/">Link #2</a>
-</p>
-</div>
 <div class="heading">
-<p>
-This is the default blurb for the main page
-(<emph>_includes/blurb_home</emph>).
-</p>
+  <div>
+  <div class="col">
+    Office 114 <br/>
+    (919) 660 6979 <br/>
+    robm AT math duke edu
+  </div>
+  Visiting Assistant Professor <br/>
+  <a href="http://math.duke.edu/">Department of Mathematics</a> <br/>
+  Duke University
+  </div>
 </div>

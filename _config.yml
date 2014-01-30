@@ -1,7 +1,7 @@
 # The site title, used for pages with a title and in RSS feeds.
-title: "Site Title"
+title: "Robert Moss"
 # The (absolute) URL at which the site can be found (e.g., used in RSS feeds).
-url: ""
+url: "http://robmoss.github.io"
 # A brief description of the site (e.g., used in RSS feeds).
 description: ""
 
@@ -25,17 +25,19 @@ url_img: "/assets/images"
 url_js: "/assets/js"
 
 # Set to "/some/path" if the blog is hosted in a sub-directory of this site.
-url_blog: ""
+url_blog: "/blog"
 # Set to true if blog posts are listed (i.e., recent posts, posts by date,
 # and posts by tag) on a per-category basis.
 listed_by_cat: false
 
 # The URL for each blog post, as per http://jekyllrb.com/docs/permalinks/.
-permalink: /:categories/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 
 # Links that appear in the navigation bar.
 navlinks:
   - Home: "/"
+  - Publications: "/pubs"
+  - Blog: "/blog"
 
 # Whether to display previous post and next post links for each post.
 show_prev_next: true
