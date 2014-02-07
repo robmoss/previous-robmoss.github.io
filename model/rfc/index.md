@@ -1,6 +1,7 @@
 ---
 layout: site
 title: Acute Renal Function Curves
+navid: Models
 js_libs: D3
 ---
 
