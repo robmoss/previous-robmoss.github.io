@@ -46,10 +46,8 @@ port: 4000
 # Disable custom plugins.
 safe: true
 
-# Replace normal quotes with smart quotes, using `rdiscount`.
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+# Use kramdown because it correctly interprets LaTeX mathematics notation.
+markdown: kramdown
 
 # The default license under which a post is published.
 default_license: CC BY-SA
