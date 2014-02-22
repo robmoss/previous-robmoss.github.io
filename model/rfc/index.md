@@ -14,6 +14,13 @@ js_libs: D3
     <a href="http://dx.doi.org/10.1152/ajprenal.00089.2013">published</a> by
     <em>AJP Renal</em>.
 
+  <p>The model source code is available
+  <a href="http://hub.darcs.net/rgm/kidney_2013-10-09">here</a>.
+  This repository includes parameter sets and solutions for every simulation
+  presented in the
+  <a href="http://dx.doi.org/10.1152/ajprenal.00089.2013">accompanying
+  manuscript</a>, as well as scripts that reproduce the manuscript figures.
+
   <p class="showjs"><strong>Instructions:</strong>
     Table 1 contains links to
     each publication's PubMed page, and allows the user to toggle the
