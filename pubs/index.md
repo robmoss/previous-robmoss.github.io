@@ -40,6 +40,41 @@ navid: Publications
 
 <ul class="pubs">
       <li class="renal"><a
+        href="http://dx.doi.org/10.1152/ajprenal.00500.2013">Dominant factors
+        that govern pressure natriuresis in diuresis and antidiuresis: a
+        mathematical model</a><br/>
+        <span class="author">
+          Moss R, Layton AT
+        </span><br/>
+        <span class="journal">
+          <b>AJP Renal</b>, Feb 2014
+        </span><br/>
+        <span class="abstract">
+  We have developed a whole-kidney model of the urine concentrating mechanism
+  and renal autoregulation.
+  The model represents the tubuloglomerular feedback (TGF) and myogenic
+  mechanisms, which together affect the resistance of the afferent arteriole
+  and thus glomerular filtration rate.
+  TGF is activated by fluctuations in macula densa [Cl-] and myogenic
+  mechanism by changes in hydrostatic pressure.
+  The model was used to investigate the relative contributions of medullary
+  blood flow autoregulation and inhibition of transport in the proximal
+  convoluted tubule to pressure natriuresis in both diuresis and antidiuresis.
+  The model predicts that medullary blood flow autoregulation, which only
+  affects the interstitial solute composition in the model, has negligible
+  influence on the rate of NaCl excretion.
+  However, it exerts a significant effect on urine flow, particularly in the
+  antidiuretic kidney.
+  This suggests that interstitial washout has significant implications for the
+  maintenance of hydration status but little direct bearing on salt excretion,
+  and that medullary blood flow may only play a signalling role for
+  stimulating a pressure-natriuresis response.
+  Inhibited reabsorption in the model proximal convoluted tubule is capable of
+  driving pressure natriuresis when the known actions of vasopressin on the
+  collecting duct epithelium are taken into account.
+        </span>
+      </li>
+      <li class="renal"><a
         href="http://dx.doi.org/10.1152/ajprenal.00089.2013">Hormonal
           regulation of salt and water excretion: a mathematical model of
           whole-kidney function and pressure-natriuresis</a><br/>
