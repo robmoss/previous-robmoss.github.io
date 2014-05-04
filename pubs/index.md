@@ -47,7 +47,7 @@ navid: Publications
           Moss R, Layton AT
         </span><br/>
         <span class="journal">
-          <b>AJP Renal</b>, Feb 2014
+          <b>AJP Renal</b> 306(9): F952&ndash;F969, May 2014
         </span><br/>
         <span class="abstract">
   We have developed a whole-kidney model of the urine concentrating mechanism
