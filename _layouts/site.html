@@ -52,10 +52,14 @@ href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Raleway" />
   <div id="content">
     {% unless page.hide contains "navbar" %}
     <ul class="navbar">
+      {% capture page_cat %}{{ page.category | downcase }}{% endcapture %}
+      {% capture page_nav %}{{ page.navid | downcase }}{% endcapture %}
       {% for link_hash in site.navlinks %}
         {% for link in link_hash %}
-        {% if page.navid and page.navid == link[0] %}
+        {% capture link_cat %}{{ link[0] | downcase }}{% endcapture %}
+        {% if page_nav == link_cat or page_cat == link_cat %}
         <li class="navloc"><a href="{{ site.baseurl }}{{ link[1] }}">{{ link[0] }}</a></li>
+        {% break %}
         {% else %}
         <li><a href="{{ site.baseurl }}{{ link[1] }}">{{ link[0] }}</a></li>
         {% endif %}
