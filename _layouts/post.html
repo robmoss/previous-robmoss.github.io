@@ -8,7 +8,7 @@ layout: site
 </div>
 {% if page.galleries %}
 <div class="lcol">
-  <p class="colname"><img src="{{ site.base_url}}{{ site.url_img }}/photos_trans.png"/>Photos</p>
+  <p class="colname"><img src="{{ site.base_url}}{{ site.url_img }}/photos_trans.png" alt="" />Photos</p>
   {% for url_hash in page.galleries %}
   <p class="colitem"><a href="{{ url_hash[1] }}">{{ url_hash[0] }}</a></p>
   {% endfor %}
@@ -25,7 +25,7 @@ layout: site
   {% if license.name == post_license %}
   <a rel="license" href="{{ license.url }}">
     <img src="{{ license.img }}" alt="{{ license.name }}"
-         title="Licensed under a {{ license.name }} international license.">
+         title="Licensed under a {{ license.name }} international license." />
   </a>
   {% endif %}
 {% endfor %}
