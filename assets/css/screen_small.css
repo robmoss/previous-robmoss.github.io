@@ -6,7 +6,14 @@ blockquote { max-width: 35em; }
 h1 { max-width: 28.57em; }
 h2 { max-width: 33.33em; }
 h3 { max-width: 36.36em; }
-div#content > * { padding: 0 0.5em; }
+div#content p { padding-left: 0.5em; padding-right: 0.5em; }
 div.heading > * { max-width: 38.5em; padding: 0 0.5em; }
 .lcol, .rcol { max-width: 12em; padding: 0.5em 1em; margin: 0 auto; }
 .colname, .colitem { text-align: center; }
+
+/* Enlarge the column links. */
+.colitem a { font-size: 1rem; line-height: 1.5rem; }
+.colitem { padding-top: 0.25rem; }
+
+/* Display images as separate blocks, centred horizontally. */
+p a img { display: block; float: none; margin: 0 auto; padding: 1em 0; }
