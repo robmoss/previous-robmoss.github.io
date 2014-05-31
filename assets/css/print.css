@@ -35,3 +35,6 @@ a { color: black; }
 
 /* Display the URL after each link. */
 a:link:after, a:visited:after { content:" (URL: " attr(href) ") "; }
+
+/* Try to avoid page breaks inside paragraphs. */
+p { page-break-inside: avoid; }
