@@ -32,6 +32,7 @@ p.caption { color: #586e75; }
 ul.navbar { background-color: #eee8d5; }
 ul.navbar li.navloc { background-color: #fdf6e3; }
 div.heading { background-color: #eee8d5; }
+.prev, .next { background-color: #eee8d5; border: 1px solid #eee8d5; }
 
 /* Syntax higlighting for code segments generated with `htmlize.el`. */
 div.code pre { border: 2px solid #eee8d5; }

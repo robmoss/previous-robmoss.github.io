@@ -1,6 +1,30 @@
 ---
 layout: site
 ---
+{% if site.show_prev_next %}
+  {% assign prev_post = page.previous %}
+  {% for ign_post in site.posts %}
+    {% if prev_post and prev_post.category == page.category %}
+    <div class="prev">
+      <a href="{{ site.baseurl }}{{ prev_post.url }}" rel="prev"
+               title="{{ prev_post.title }}">&laquo;</a></div>
+    {% break %}
+    {% else %}
+      {% assign prev_post = prev_post.previous %}
+    {% endif %}
+  {% endfor %}
+  {% assign next_post = page.next %}
+  {% for ign_post in site.posts %}
+    {% if next_post and next_post.category == page.category %}
+    <div class="next">
+      <a href="{{ site.baseurl }}{{ next_post.url }}" rel="next"
+               title="{{ next_post.title }}">&raquo;</a></div>
+    {% break %}
+    {% else %}
+      {% assign next_post = next_post.next %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 <div class="lcol postdate">
   <p class="colname">{{ page.date | date: "%b %-d, %Y" }}</p>
   {% assign category = page.categories[0] %}

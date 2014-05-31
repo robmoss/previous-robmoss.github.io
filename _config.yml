@@ -34,6 +34,8 @@ permalink: /:categories/:year/:month/:day/:title
 navlinks:
   - Home: "/"
 
+# Whether to display previous post and next post links for each post.
+show_prev_next: true
 # The number of posts to show when using the `posts_by_category` layout.
 max_posts: 3
 # The number of posts to include in the RSS feed.

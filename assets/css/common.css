@@ -78,6 +78,22 @@ h2 + .postdate .colname { text-align: center; border: 0; font-size: 0.95em;
                           color: inherit; }
 h2 + .postdate .colitem { display: none; }
 
+/* Links to the previous and next posts. */
+.prev { border-top-right-radius: 0.75rem;
+        border-bottom-right-radius: 0.75rem; }
+.next { border-top-left-radius: 0.75rem;
+        border-bottom-left-radius: 0.75rem; }
+/* Set the size and font-size of the buttons.
+   When using guillemets, the line-height has to be 0.25rem less than the
+   height in order for the characters to appear vertically centred. */
+.prev, .next { width: 2.5rem; height: 2.5rem;
+               text-align: center;
+               vertical-align: middle;
+               line-height: 2.25rem;
+               font-size: 2.5rem; }
+/* Don't underline the previous and next links. */
+.prev a:link, .next a:link { text-decoration: none; }
+
 /* Ordered lists. */
 ol {
     list-style-position: outside;

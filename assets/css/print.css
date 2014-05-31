@@ -38,3 +38,6 @@ a:link:after, a:visited:after { content:" (URL: " attr(href) ") "; }
 
 /* Try to avoid page breaks inside paragraphs. */
 p { page-break-inside: avoid; }
+
+/* Hide links to the previous and next posts. */
+.prev, .next { display: none; }

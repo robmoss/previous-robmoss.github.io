@@ -17,3 +17,7 @@ div.heading > * { max-width: 38.5em; padding: 0 0.5em; }
 
 /* Display images as separate blocks, centred horizontally. */
 p a img { display: block; float: none; margin: 0 auto; padding: 1em 0; }
+
+/* Float the previous and next buttons on either side of the post date. */
+.prev { float: left; }
+.next { float: right; }

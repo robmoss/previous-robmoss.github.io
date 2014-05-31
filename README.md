@@ -51,6 +51,8 @@ The code to generate these links is found in `_includes/links_to_tags`.
 
 The behaviour of this layout depends on the following variables:
 
+- `site.show_prev_next`: determines whether to display links to the previous
+  and next posts.
 - `page.galleries`: a hash that maps names to URLs, each of which will be
   displayed as a link to the specified photo gallery.
 - `page.license`: identifies the license under which the post is made
