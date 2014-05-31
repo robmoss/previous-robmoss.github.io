@@ -40,6 +40,17 @@ layout: site
 {% endif %}
 <div>
 {{ content }}
+{% if page.comments %}
+  {% if page.comments.size == 1 %}<h3 class="comments">1 comment</h3>
+  {% else %}<h3 class="comments">{{ page.comments.size }} comments</h3>
+  {% endif %}
+  {% for comment in page.comments %}
+    <div class="comment"><p>{{ comment.text }}<br/>
+    <span class="author">{{ comment.author }}</span>
+    <span class="date">{{ comment.date }}</span></p>
+    </div>
+  {% endfor %}
+{% endif %}
 {% assign post_license = site.default_license %}
 {% if page.license %}
 {% assign post_license = page.license %}

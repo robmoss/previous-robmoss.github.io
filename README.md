@@ -60,6 +60,24 @@ The behaviour of this layout depends on the following variables:
   See `site.licenses` in `_config.yml` for a predefined list of CC
   licenses.
 
+Comments can be embedded in the YAML front matter:
+
+    ---
+    comments:
+    - author: John Doe
+      date: January 1, 2000
+      text: |
+        This is how you embed a comment in the YAML front matter so that it
+        will be displayed at the bottom of the post.
+    - author: Jane Doe
+      date: January 2, 2000
+      text: |
+        You can even embed multiple paragraphs.</p>
+
+        <p>Just remember that the comment text, as a whole, will be contained
+        within a paragraph element. So you only need tags between paragraphs.
+    ---
+
 ## Posts by category
 
 Lists the most recent posts belonging to a single category, or across all

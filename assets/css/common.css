@@ -18,6 +18,8 @@ h1, h2, h3 { display: block; text-align: center; font-family: "Raleway",
 h1 { font-size: 1.4em; }
 h2 { font-size: 1.2em; }
 h3 { font-size: 1.1em; }
+.comments { text-align: left; margin-top: 2.5rem; }
+.comment .author { font-weight: bold; padding-right: 1em; }
 span.chart svg, div.tooltip { font-size: 0.875em; }
 .footer { font-size: 0.625em; }
 .colitem a { font-size: 0.75em; }
