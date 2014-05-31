@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tools for statistical analysis
+navid: Blog
 tags: ['statistics']
 ---
 

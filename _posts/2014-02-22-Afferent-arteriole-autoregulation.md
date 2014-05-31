@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Afferent arteriole autoregulation
+navid: Blog
 tags: ['modelling', 'autoregulation']
 ---
 

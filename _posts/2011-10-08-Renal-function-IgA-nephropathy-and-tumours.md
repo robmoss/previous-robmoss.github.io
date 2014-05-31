@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Renal function, IgA nephropathy and tumours
+navid: Blog
 tags: ['CKD', 'tumours', 'nephropathy', 'pathophysiology']
 ---
 

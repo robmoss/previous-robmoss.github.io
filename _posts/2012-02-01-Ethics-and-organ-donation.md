@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ethics and organ donation
+navid: Blog
 tags: ['ethics']
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Placebo effects and surgical superstitions
+navid: Blog
 tags: ['placebo', 'superstition', 'surgery']
 ---
 

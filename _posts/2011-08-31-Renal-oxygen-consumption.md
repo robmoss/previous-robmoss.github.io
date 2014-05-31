@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Renal oxygen consumption
+navid: Blog
 tags: ['oxygen', 'whole-kidney']
 ---
 

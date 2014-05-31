@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Distribution of SNGFR in the cortex
+navid: Blog
 tags: ['anatomy', 'vasculature', 'filtration', 'autoregulation']
 ---
 

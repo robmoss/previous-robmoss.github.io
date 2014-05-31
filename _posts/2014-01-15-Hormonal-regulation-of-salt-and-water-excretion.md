@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hormonal regulation of salt and water excretion
+navid: Blog
 tags: ['modelling', 'whole-kidney']
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pressure natriuresis in diuresis and antidiuresis
+navid: Blog
 tags: ['modelling', 'whole-kidney']
 ---
 

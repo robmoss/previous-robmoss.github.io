@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Renal vasculature
+navid: Blog
 tags: ['vasculature', 'autoregulation']
 ---
 

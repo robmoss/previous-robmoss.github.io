@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Whole-kidney models
+navid: Blog
 tags: ['whole-kidney']
 ---
 
