@@ -30,7 +30,7 @@ The behaviour of this layout depends on the following variables:
    - `MathJax`: use the (remote) MathJax library.
 - `page.navid`: if this string matches one of the links in the navigation
   bar, that link is highlighted so as to identify the page as belonging to
-  that portion of the site.
+  that portion of the site; `page.category` is the fallback option.
 
 The visibility of several page elements can be controlled by the following
 variables:
@@ -122,7 +122,7 @@ available to the page contents and the margin columns (`.lcol` and `.rcol`,
 respectively).
 
 Column contents (`div.lcol` and `div.rcol`) typically contain a heading
-(`p.colname`) and one or more links wrapped in `p.colname` element(s).
+(`p.colname`) and one or more links wrapped in `p.colitem` element(s).
 
 Page blurbs (as defined in `_includes/blurb_*`) can contain links to be
 displayed in columns at the top of the page, and also a blurb (`div.heading`)
