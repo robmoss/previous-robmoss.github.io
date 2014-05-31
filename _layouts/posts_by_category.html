@@ -14,7 +14,7 @@ layout: site
 
 {% for post in posts limit:post_limit %}
 <h2>{{ post.title }}</h2>
-<div class="lcol">
+<div class="lcol postdate">
   <p class="colname">{{ post.date | date: "%b %-d, %Y" }}</p>
   {% if page.category == nil and post.categories.size > 0 %}
   {% if site.listed_by_cat %}

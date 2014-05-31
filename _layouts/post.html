@@ -1,7 +1,7 @@
 ---
 layout: site
 ---
-<div class="lcol">
+<div class="lcol postdate">
   <p class="colname">{{ page.date | date: "%b %-d, %Y" }}</p>
   {% assign category = page.categories[0] %}
   {% include links_to_tags tags=page.tags category=category %}

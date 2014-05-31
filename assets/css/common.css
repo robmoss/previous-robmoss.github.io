@@ -32,7 +32,9 @@ span.frdel { text-decoration: line-through; }
 /* Page layout. */
 html, body, div, .colname, .colitem { margin: 0; padding: 0; }
 #content { margin: 0 auto; }
-h2 { padding-top: 1em; }
+/* Increased spacing between headings, except at the very top of the page. */
+h2 { padding-top: 1em; margin-top: 2em; margin-bottom: 1rem; }
+.heading + h2 { margin-top: 0; padding-top: 0; border: 0; }
 /* Display content blocks -- headings, text, lists -- centred horizontally. */
 h1, h2, h3, div, p, ul, ol, blockquote, div.MathJax_Display {
     margin-left: auto; margin-right: auto;
@@ -67,6 +69,14 @@ div.heading > *:last-child { padding-bottom: 0.5em; }
 /* Round corners on the page blurb and the navigation bar. */
 div.heading { border-radius: 1em; }
 ul.navbar { border-radius: 0 0 1em 1em; }
+
+/* Hide post categories in listings, display post date under the title. */
+h2 + .postdate { float: none; padding: 0; text-align: center;
+                 margin-left: auto; margin-right: auto; margin-top: -1em;
+                 margin-bottom: 0; }
+h2 + .postdate .colname { text-align: center; border: 0; font-size: 0.95em;
+                          color: inherit; }
+h2 + .postdate .colitem { display: none; }
 
 /* Ordered lists. */
 ol {
