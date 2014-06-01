@@ -1,5 +1,6 @@
 ---
 layout: site
+navid: Tools
 title: Model Documentation and Tools
 ---
 
@@ -21,6 +22,15 @@ The importance of clear, concise and helpful documentation is also
 published model and the accompanying simulations are sufficiently
 well-described that the published results can be replicated independently of
 the original model implementation.
+It can be hard to write [good
+prose](http://www.americanscientist.org/issues/id.877,y.0,no.,content.true,page.1,css.print/issue.aspx)
+and to *teach* the user rather than simply
+[telling them](http://stevelosh.com/blog/2013/09/teach-dont-tell/) what to do.
+That's why it's important a have good editor; only edit the documentation
+[yourself](http://lifehacker.com/5968996/how-to-edit-your-own-writing/all) as
+a last resort.
+Good documentation means that your model/software is
+[learnable](http://brikis98.blogspot.com.tr/2014/05/you-are-what-you-document.html).
 
 The discipline of software engineering has led to the production of a plethora
 of languages, tools and processes that can help improve the design,
@@ -71,6 +81,7 @@ non-trivial mathematical models.
   [documentation](http://docs.python.org/))
 - [Real World Haskell](http://book.realworldhaskell.org/)
 - [Learn You A Haskell](http://learnyouahaskell.com/)
+- [What I Wish I Knew When Learning Haskell 2.0](http://dev.stephendiehl.com/hask)
 - [Write Yourself a Scheme in 48 hours](http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
 - [Learn Prolog Now](http://www.learnprolognow.org/)
 - [Mercury](http://www.mercurylang.org/)

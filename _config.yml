@@ -39,6 +39,7 @@ navlinks:
   - Publications: "/pubs"
   - Blog: "/blog"
   - Models: "/model"
+  - Tools: "/tools"
 
 # Whether to display previous post and next post links for each post.
 show_prev_next: true
