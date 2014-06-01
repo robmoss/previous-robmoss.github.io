@@ -79,8 +79,9 @@ href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Raleway" />
 
     {% unless page.hide contains "footer" %}
     <p class="footer">
-      <a href="http://ethanschoonover.com/solarized">solarized</a>
-      /
+      {% if site.theme_url and site.theme_name %}
+      <a href="{{ site.theme_url }}">{{ site.theme_name }}</a>
+      /{% endif %}
       <a href="http://validator.w3.org/check/referer">xhtml</a>
       /
       <a href="http://jigsaw.w3.org/css-validator/check/referer">css3</a>
