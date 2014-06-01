@@ -6,7 +6,7 @@ h1 { color: #b58900; }
 h2 { color: #859900; }
 h3 { color: #b58900; }
 .colname { color: #2aa198; border-bottom: 2px solid #2aa198; }
-.colitem a { color: #dc322f; }
+.colitem a { color: #d33682; }
 td.showyes { background-color: lightgreen; }
 td.showno { background-color: pink; }
 strong, span.author { color: #b58900; }
