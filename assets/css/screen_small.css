@@ -22,3 +22,8 @@ p a img { display: block; float: none; margin: 0 auto; padding: 1em 0; }
 /* Float the previous and next buttons on either side of the post date. */
 .prev { float: left; }
 .next { float: right; }
+
+/* Don't justify text on narrow devices, word spacing looks terrible. */
+@media not all and (min-width: 30em) {
+    #content { text-align: left; }
+}
