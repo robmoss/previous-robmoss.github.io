@@ -13,3 +13,7 @@ blockquote { width: 35rem; }
 /* Display the previous and next buttons on either side of the page. */
 .prev { position: fixed; top: 50%; left: 0; }
 .next { position: fixed; top: 50%; right: 0%; }
+
+/* Make comments appear smaller than the main text of the post. */
+.comment { margin-bottom: 2rem; width: 35rem;  }
+.comment p { font-size: 0.95em; line-height: 1.4em; width: inherit; }
