@@ -1,16 +1,14 @@
 /* Stylesheet for presenting material on smaller screens. */
 #content { max-width: 60em; }
-div, p, ul, .MathJax_Display { max-width: 40em; }
-ol { max-width: 38.5em; }
-blockquote { max-width: 35em; }
-h1 { max-width: 28.57em; }
-h2 { max-width: 33.33em; }
-h3 { max-width: 36.36em; }
-#content p, #content h1, #content h2, #content h3 {
-    padding-left: 0.5rem; padding-right: 0.5rem; }
-.heading > * { max-width: 38.5em; padding: 0 0.5em; }
+h1, h2, h3, div, p, ul, .MathJax_Display { max-width: 40rem; }
+ol { max-width: 38.5rem; }
+blockquote { max-width: 35rem; }
+.heading > * { max-width: 38.5rem; padding: 0 0.5rem; }
 .lcol, .rcol { max-width: 12em; padding: 0.5em 1em; margin: 0 auto; }
 .colname, .colitem { text-align: center; }
+
+/* Pad all major block elements on both sides. */
+p, h1, h2, h3, ol, blockquote { padding-left: 0.5rem; padding-right: 0.5rem; }
 
 /* Enlarge the column links. */
 .colitem a { font-size: 1rem; line-height: 1.5rem; }
