@@ -1,6 +1,7 @@
 /* Stylesheet for presenting material on larger screens. */
 #content { width: 60em; }
-h1, h2, h3, div, p, ul, .MathJax_Display { width: 40rem; }
+h1, h2, h3, div, p, ul, .MathJax_Display, .highlighttable { width: 40rem; }
+.highlighttable div { width: auto; }
 ol { width: 38.5rem; }
 blockquote { width: 35rem; }
 .heading > * { width: 38.5rem; }
