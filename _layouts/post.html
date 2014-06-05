@@ -58,10 +58,10 @@ layout: site
 {% if post_license %}
 {% for license in site.licenses %}
   {% if license.name == post_license %}
-  <a rel="license" href="{{ license.url }}">
+  <p class="license"><a rel="license" href="{{ license.url }}">
     <img src="{{ license.img }}" alt="{{ license.name }}"
          title="Licensed under a {{ license.name }} international license." />
-  </a>
+  </a></p>{% break %}
   {% endif %}
 {% endfor %}
 {% endif %}
