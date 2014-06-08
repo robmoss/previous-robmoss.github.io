@@ -9,7 +9,8 @@ blockquote { max-width: 35rem; }
 .colname, .colitem { text-align: center; }
 
 /* Pad all major block elements on both sides. */
-p, h1, h2, h3, ol, blockquote { padding-left: 0.5rem; padding-right: 0.5rem; }
+p, h1, h2, h3, ol, ul, blockquote {
+    padding-left: 0.5rem; padding-right: 0.5rem; }
 
 /* Enlarge the column links. */
 .colitem a { font-size: 1rem; line-height: 1.5rem; }
