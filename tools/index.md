@@ -39,6 +39,11 @@ Below is a (very incomplete) list of languages and tools that I have found
 helpful for the design, implementation, validation and documentation of
 non-trivial mathematical models.
 
+## Tutorials
+
+- How to produce [interactive plots](./plotting-with-d3) using D3; last
+  updated *2014-06-08*.
+
 ## Tools
 
 <p class="label ul">Mathematics</p>
