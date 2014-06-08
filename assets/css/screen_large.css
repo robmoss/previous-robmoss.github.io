@@ -9,7 +9,6 @@ blockquote { width: 35rem; }
 .rcol { float: right; clear: right; text-align: left; }
 .lcol, .rcol { margin-bottom: 1.5em; }
 .lcol, .lcol > *, .rcol, .rcol > * { width: 8em; }
-.col { float: right; text-align: right; width: auto; }
 
 /* Display the previous and next buttons on either side of the page. */
 .prev { position: fixed; top: 50%; left: 0; }

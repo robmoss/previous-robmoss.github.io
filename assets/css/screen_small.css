@@ -7,6 +7,7 @@ blockquote { max-width: 35rem; }
 .heading > * { max-width: 38.5rem; padding: 0 0.5rem; }
 .lcol, .rcol { max-width: 12em; padding: 0.5em 1em; margin: 0 auto; }
 .colname, .colitem { text-align: center; }
+.heading .col { padding-left: 2em; }
 
 /* Pad all major block elements on both sides. */
 p, h1, h2, h3, ol, ul, blockquote {

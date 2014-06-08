@@ -67,6 +67,7 @@ div.code pre {
 div.heading { margin-bottom: 2.5em; }
 div.heading > *:first-child { padding-top: 0.5em; }
 div.heading > *:last-child { padding-bottom: 0.5em; }
+.heading .col { float: right; text-align: right; width: auto; }
 
 /* Round corners on the page blurb and the navigation bar. */
 div.heading { border-radius: 1em; }
