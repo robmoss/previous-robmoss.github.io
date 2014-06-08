@@ -164,6 +164,12 @@ p.caption { text-align: center; }
     display: none;
 }
 
+/* Layout of code blocks highlighted with `pygments`. */
+.highlight { border-radius: 0.5em; }
+.highlight span.lineno, .highlighttable td.linenos { padding-right: 0.25em; }
+.highlight pre { margin: 0.25em 0.5em; }
+.highlighttable td { padding: 0; }
+
 /*
  * Lines and paths
  */

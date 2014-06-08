@@ -46,3 +46,26 @@ div.code pre { border: 2px solid #073642; }
 .code .tuareg-font-lock-operator { color: #b58900; }
 .code .type { color: #b58900; }
 .code .variable-name { color: #268bd2; }
+
+/* Syntax highlighting for code blocks highlighted with `pygments`. */
+.highlight { border: 1px solid #586e75; }
+.highlight span.lineno, .highlighttable td.linenos { color: #586e75; }
+/* Comments. */
+.highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight.cs {
+    color: #586e75; }
+/* Keywords and literals. */
+.highlight .k, .highlight .l, .highlight .ld, .highlight .il, .highlight .m,
+  .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo,
+  .highlight .kn, .highlight .kp { color: #859900; }
+/* Errors. */
+.highlight .err { color: #dc322f; }
+/* Strings. */
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2,
+  .highlight .se, .highlight .sh, .highlight .si, .highlight .sx,
+  .highlight .sr, .highlight .s1, .highlight .ss { color: #2aa198; }
+/* Constant keywords. */
+.highlight .kc { color: #b58900; }
+/* Declarations and reserved words. */
+.highlight .kd, .highlight .kr { color: #268bd2; }
+/* Types. */
+.highlight .kt { color: #dc322f }
