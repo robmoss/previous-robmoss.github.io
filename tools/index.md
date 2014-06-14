@@ -84,6 +84,8 @@ non-trivial mathematical models.
 - [Real World OCaml](http://realworldocaml.org/)
 - [Python](http://www.python.org/) (and
   [documentation](http://docs.python.org/))
+- [PyMC](http://pymc-devs.github.io/pymc/) and [Bayesian Methods for
+  Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 - [Real World Haskell](http://book.realworldhaskell.org/)
 - [Learn You A Haskell](http://learnyouahaskell.com/)
 - [What I Wish I Knew When Learning Haskell 2.0](http://dev.stephendiehl.com/hask)
