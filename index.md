@@ -25,8 +25,8 @@ immunological control of viral infections, and of in-host viral mutation as a
 result of selection pressure.
 
 The goals of this work are to understand and account for the real-world
-constraints that limit a government's ability to identify an extant epidemic
-and intervene appropriately, and to reduce endemic burden.
+constraints that limit the ability to identify extant epidemics, to intervene
+appropriately, and to reduce endemic burden.
 The outcomes of this work are to inform health-care policy on the grounds that
 what is good for the population is good for the country.
 
