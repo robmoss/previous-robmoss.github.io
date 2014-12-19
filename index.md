@@ -12,6 +12,25 @@ improve quality of life.
 Specifically:
 
 <div class="lcol">
+<p class="colname">Epidemiology</p>
+<p class="colitem"><a href="portfolio/research.html#epi">more
+details</a></p>
+</div>
+
+Early detection and subsequent forecasting of infectious disease epidemics
+through the use of Bayesian estimation and mechanistic models of infection.
+Mathematical modelling of containment strategies for epidemic diseases within
+logistical constraints of existing healthcare systems, of medical and
+immunological control of viral infections, and of in-host viral mutation as a
+result of selection pressure.
+
+The goals of this work are to understand and account for the real-world
+constraints that limit a government's ability to identify an extant epidemic
+and intervene appropriately, and to reduce endemic burden.
+The outcomes of this work are to inform health-care policy on the grounds that
+what is good for the population is good for the country.
+
+<div class="lcol">
 <p class="colname">Physiology</p>
 <p class="colitem"><a href="portfolio/research.html#renal">more
 details</a></p>
@@ -30,23 +49,6 @@ There are many potential applications, from teaching medical students to
 assisting doctors with diagnoses and delivering personalised health-care.
 This is of particular interest due to the ever-increasing burden of
 kidney-related diseases such as essential hypertension and diabetes.
-
-<div class="lcol">
-<p class="colname">Epidemiology</p>
-<p class="colitem"><a href="portfolio/research.html#epi">more
-details</a></p>
-</div>
-
-Mathematical modelling of containment strategies for epidemic diseases within
-logistical constraints of existing healthcare systems, of medical and
-immunological control of viral infections, and of in-host viral mutation as a
-result of selection pressure.
-
-The goals of this work are to understand and account for the real-world
-logistic constraints that limit a government's ability to intervene in an
-extant epidemic or on the long-term burden of a disease.
-The outcomes of this work are to inform health-care policy on the grounds that
-what is good for the population is good for the country.
 
 <div class="lcol">
 <p class="colname">Methodology</p>
@@ -109,6 +111,14 @@ Either way, I have a list of articles that I found useful.
 ## Previous Research Teams
 
 <div class="lcol">
+<p class="colname">Durham</p>
+</div>
+
+<a href="http://www.math.duke.edu/~alayton/">Layton Lab</a> in the
+<a href="http://math.duke.edu/">Department of Mathematics</a> at
+<a href="http://www.duke.edu/">Duke University</a>.
+
+<div class="lcol">
 <p class="colname">Paris</p>
 </div>
 
@@ -123,6 +133,6 @@ Gustave Roussy</a>.
 
 <a href="http://mathmodelling.sph.unimelb.edu.au/">Mathematical Modelling of
 Infectious Diseases</a> at
-<a href="http://www.sph.unimelb.edu.au/">Melbourne School of Population and
+<a href="http://www.mspgh.unimelb.edu.au/">Melbourne School of Population and
 Global Health</a> and
 <a href="http://www.mcri.edu.au/">Murdoch Childrens Research Institute</a>.
