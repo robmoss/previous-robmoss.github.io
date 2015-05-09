@@ -10,6 +10,7 @@ h3 { color: #b58900; }
 td.showyes { background-color: lightgreen; }
 td.showno { background-color: pink; }
 strong, span.author { color: #b58900; }
+strong a { color: #d33682; }
 em, emph, span.journal, .comment .author, .comment .date { color: #859900; }
 ul.navbar li a { color: #6c71c4; }
 ul.navbar li a:hover { color: #cb4b16; }

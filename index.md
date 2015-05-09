@@ -17,8 +17,9 @@ Specifically:
 details</a></p>
 </div>
 
-Early detection and subsequent forecasting of infectious disease epidemics
-through the use of Bayesian estimation and mechanistic models of infection.
+Early detection and **[forecasting]({{ site.baseurl }}/2015-flu-forecasts/)**
+of infectious disease epidemics through the use of Bayesian estimation and
+mechanistic models of infection.
 Mathematical modelling of containment strategies for epidemic diseases within
 logistical constraints of existing healthcare systems, of medical and
 immunological control of viral infections, and of in-host viral mutation as a
